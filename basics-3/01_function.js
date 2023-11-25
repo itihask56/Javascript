@@ -24,4 +24,24 @@ function loginUserMessage(username='no user'){
 }
 
 const user = loginUserMessage("itihas")
-console.log("User: ",user);
+// console.log("User: ",user);
+
+
+function calculateCartPrice(...num){
+    return num;
+}
+const price = calculateCartPrice(12,23,3,4,45)
+// console.log(price);
+
+const User={
+    name:"Itihas",
+    age:"21",
+    location:"Chandigarh",
+
+
+}
+
+function handleObject(anyuser){
+    console.log(`User is ${anyuser.name} and his age is ${anyuser.age}`);
+}
+// handleObject(User)
